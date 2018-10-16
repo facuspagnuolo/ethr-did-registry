@@ -1,0 +1,70 @@
+{
+  "contracts": {
+    "EthereumDIDRegistry": {
+      "address": "0x7147b2a76272384fe0a4f80dc01b4c9f57238ac7",
+      "constructorCode": "608060405234801561001057600080fd5b50612283806100206000396000f300",
+      "bodyBytecodeHash": "7511456389f18406d4e6fd2a7b354cd2794eee9ff2fd24cacfa1b5aaea35b244",
+      "localBytecodeHash": "1905b1be2b0f809e1dafabb18125015155621ee18ca40e5dced13f4ce20e28f5",
+      "deployedBytecodeHash": "1905b1be2b0f809e1dafabb18125015155621ee18ca40e5dced13f4ce20e28f5",
+      "types": {
+        "t_mapping<t_address>": {
+          "id": "t_mapping<t_address>",
+          "valueType": "t_address",
+          "label": "mapping(key => address)",
+          "kind": "mapping"
+        },
+        "t_mapping<t_uint256>": {
+          "id": "t_mapping<t_uint256>",
+          "valueType": "t_uint256",
+          "label": "mapping(key => uint256)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "EthereumDIDRegistry",
+          "path": "contracts/EthereumDIDRegistry.sol",
+          "label": "owners",
+          "astId": 5,
+          "type": "t_mapping<t_address>",
+          "src": "59:41:0"
+        },
+        {
+          "contract": "EthereumDIDRegistry",
+          "path": "contracts/EthereumDIDRegistry.sol",
+          "label": "delegates",
+          "astId": 13,
+          "type": "t_mapping<t_uint256>",
+          "src": "104:81:0"
+        },
+        {
+          "contract": "EthereumDIDRegistry",
+          "path": "contracts/EthereumDIDRegistry.sol",
+          "label": "changed",
+          "astId": 17,
+          "type": "t_mapping<t_uint256>",
+          "src": "189:39:0"
+        },
+        {
+          "contract": "EthereumDIDRegistry",
+          "path": "contracts/EthereumDIDRegistry.sol",
+          "label": "nonce",
+          "astId": 21,
+          "type": "t_mapping<t_uint256>",
+          "src": "232:37:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {},
+  "zosversion": "2",
+  "version": "1.0.0"
+}

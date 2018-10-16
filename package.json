@@ -15,7 +15,9 @@
     "ls": "^0.2.1",
     "solhint": "^1.1.10",
     "truffle": "^4.1.6",
-    "truffle-hdwallet-provider": "^0.0.3"
+    "truffle-hdwallet-provider": "^0.0.3",
+    "zos": "^2.0.0-alpha.9",
+    "zos-lib": "^2.0.0-alpha.9"
   },
   "scripts": {
     "test": "./node_modules/.bin/truffle test",
